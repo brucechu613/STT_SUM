@@ -13,7 +13,7 @@ r = sr.Recognizer() # speech recognition tool
 translator = Translator() # translate simplified to traditional
 
 url_pre = "https://www.youtube.com/watch?v="
-url_post = "Mvk2TNWAV8A"
+url_post = "Mvk2TNWAV8A" # input
 url = url_pre + url_post
 
 yt = YouTube(url)
@@ -56,4 +56,4 @@ else:
   file_write.write(rec) 
 
 translation = translator.translate(summarizer(rec)[0], dest='zh-tw', src='zh-cn')
-print("Summarization: ",translation.text)
+print("Summarization: ",translation.text) # output

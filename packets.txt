@@ -1,0 +1,7 @@
+pip install ffmpeg
+pip install pytube
+pip install pydub
+pip install speechrecognition
+pip install paddlenlp
+pip install paddlepaddle
+pip install googletrans==4.0.0-rc1
